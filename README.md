@@ -1,4 +1,5 @@
 Library Management System
+
 This is a simple Java-based Library Management System with a graphical user interface (GUI) built using Swing and a MySQL database for data persistence. It allows users to manage books in a library, including viewing, adding, deleting, and updating book records.
 
 Features
