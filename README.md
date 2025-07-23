@@ -3,6 +3,7 @@ Library Management System
 This is a simple Java-based Library Management System with a graphical user interface (GUI) built using Swing and a MySQL database for data persistence. It allows users to manage books in a library, including viewing, adding, deleting, and updating book records.
 
 Features
+
 User Authentication: Secure login page to access the system.
 
 View Books: Display all books currently in the database.
@@ -14,6 +15,7 @@ Delete Book: Remove existing book records by ID.
 Update Book: Modify details of an existing book record by ID.
 
 Technologies Used
+
 Java Swing: For the graphical user interface.
 
 JDBC (Java Database Connectivity): To connect to the MySQL database.
@@ -21,9 +23,11 @@ JDBC (Java Database Connectivity): To connect to the MySQL database.
 MySQL: Relational database to store book information.
 
 Setup Instructions
+
 To get this project up and running, follow these steps:
 
 1. Database Setup
+   
 First, you need to set up the MySQL database.
 
 Install MySQL: If you don't have MySQL installed, download and install it from the official MySQL website.
@@ -67,6 +71,7 @@ password = "12345"
 If your MySQL setup has different credentials, update these values in DatabaseConnection.java accordingly.
 
 2. Java Project Setup
+   
 IDE: Open the project in your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).
 
 JDBC Driver: You need to add the MySQL JDBC driver to your project's classpath.
@@ -76,6 +81,7 @@ Download the MySQL Connector/J (JDBC driver) from the MySQL website.
 Add the downloaded .jar file to your project's build path (e.g., in IntelliJ, go to File -> Project Structure -> Libraries -> + -> Java and select the .jar file).
 
 3. Project Structure
+   
 .
 ├── src/
 │   ├── main.java
@@ -104,6 +110,7 @@ updateBook.java: GUI for updating existing book details in the database.
 library_database.sql: SQL script to set up the database and table.
 
 4. Running the Application
+   
 Compile and Run: Run the main.java file from your IDE.
 
 Login: A login window will appear. Use the following credentials:
